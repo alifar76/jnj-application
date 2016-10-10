@@ -22,4 +22,4 @@ There are three scripts in the code folder. They are called:
 - ```task_b.py```
 - ```task_c.py```
 
-The three scripts
+Each script requires certain programs to be installed on the system, the details of which are in the assignment document.
