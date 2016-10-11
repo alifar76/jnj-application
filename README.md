@@ -23,3 +23,21 @@ There are three scripts in the code folder. They are called:
 - ```task_c.py```
 
 Each script requires certain programs to be installed on the system, the details of which are in the assignment document.
+
+
+Task A
+------
+
+The output of ```task_a.py``` is a file called ```task-a-result.csv```, as per specification.
+
+
+Task B
+------
+
+TODO
+
+
+Task C
+------
+
+TODO
