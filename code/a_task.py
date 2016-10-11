@@ -39,9 +39,11 @@ df = pd.DataFrame()
 for x in inputseqs:
     subset = data.loc[data[0] == x]
     new_df = subset[subset[1] == min(subset[1])]
-    if new_df.shape[0] == 1:
-    	species = ' '.join(list(new_df[2].values)[0].split()[:2])
-    	result = [list(new_df[0].values)[0],species]
+    #df = df.append(new_df)
+    allspecies = [' '.join(x.split()[:2]) for x in list(new_df[2].values)]
+    unique_species = list(set(allspecies))   
+    if len(unique_species) == 1:
+    	result = [list(new_df[0].values)[0],unique_species[0]]
     	df2 = pd.DataFrame([result],)
         df = df.append(df2,ignore_index=True)
     else:
