@@ -36,8 +36,6 @@ Task B
 
 The script, ```task_b.py```, produces a number of files including a few .tre files. The file called ```RAxML_bipartitionsBranchLabels.tre``` can be opened and viewed with Dendroscope.
 
-**I need to re-check this script once more before marking it complete. 95% complete.**
-
 Task C
 ------
 
