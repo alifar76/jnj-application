@@ -23,7 +23,7 @@ There are three scripts in the code folder. They are called:
 - ```task_b.py```
 - ```task_c.py```
 
-Each script requires certain programs to be installed on the system, the details of which are in the assignment document.
+Each script requires certain programs to be installed on the system, the details of which are in the assignment document. Relevant result output files are in the folder ```results```.
 
 
 Task A
@@ -35,11 +35,11 @@ The output of ```task_a.py``` is a file called ```task-a-result.csv```, as per s
 Task B
 ------
 
-The script, ```task_b.py```, produces a number of files including a few .tre files. The file called ```RAxML_bipartitionsBranchLabels.tre``` can be opened and viewed with Dendroscope.
+The script, ```task_b.py```, produces a number of files including a few .tre files. The file called ```RAxML_bipartitionsBranchLabels.tre``` can be opened and viewed with Dendroscope. The dendogram image file is called ```RAxML_bipartitionsBranchLabels_Faruqi.png```. 
 
 Task C
 ------
 
 The name of the paper and the two bacterial strains mentioned in that paper are part of the docstrings of ```task_c.py``` script. The script retrieves data from NCBI and runs progressiveMauve to produce an output file called ```clostridia.xmfa```.
 
-However, Mauve does not seem to offer synteny dot-plot figures to be generated, the way they are generated in the paper. Exploring options including a new study. 
+The .xmfa file was viewed in Mauve and the resulting figure is called ```Task_C.png```.
