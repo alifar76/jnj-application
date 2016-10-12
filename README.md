@@ -12,6 +12,7 @@ All analysis were done on MacBook Pro, OS X El Capitan, Version 10.11.4. I used 
 
 - [pandas 0.18.1](http://pandas.pydata.org/)
 - [wget 3.2](https://pypi.python.org/pypi/wget)
+- [Biopython 1.68](http://biopython.org/)
 
 How to use
 ------
