@@ -55,7 +55,7 @@ The Dockerized version of Task B is available on [Docker Hub here](https://hub.d
 
 To run, type following command:
 
-```docker pull alifar76/jnj-task-b```
+```docker run alifar76/jnj-task-b```
 
 To copy the .tre file to the host system to view in Dendroscope by following command:
 
