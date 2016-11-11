@@ -45,3 +45,12 @@ The name of the paper and the two bacterial strains mentioned in that paper are 
 The .xmfa file was viewed in Mauve and the resulting figure is called ```Task_C.png```.
 
 Additionally, I'm running WebACT for this comparison. It can be accessed [here](http://www.webact.org/WebACT/generate?CGISESSID=8666a6010a5b4bd92ae2de7a323ecc91&rm=mode3).
+
+Additional Task
+------
+
+The Dockerized version of Task B is available on [Docker Hub here](https://hub.docker.com/r/alifar76/jnj-task-b/). The repo can be pulled with following command:
+
+```docker pull alifar76/jnj-task-b```
+
+To run
