@@ -46,5 +46,5 @@ subprocess.call(runroary, shell=True)
 # 100 ML searches on 100 randomized stepwise addition parsimony trees
 # rapid bootstrapping is that it allows you to do a complete analysis (ML search + Bootstrapping) in one single step by typing
 # Run RaxML
-raxmlcmd = './raxmlHPC -f a -m GTRGAMMA -p 12345 -x 12345 -# 100 -s roary_output/core_gene_alignment.aln -n tre'
+raxmlcmd = 'raxmlHPC -f a -m GTRGAMMA -p 12345 -x 12345 -# 100 -s roary_output/core_gene_alignment.aln -n tre'
 subprocess.call(raxmlcmd, shell=True)
