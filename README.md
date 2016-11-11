@@ -53,4 +53,12 @@ The Dockerized version of Task B is available on [Docker Hub here](https://hub.d
 
 ```docker pull alifar76/jnj-task-b```
 
-To run
+To run, type following command:
+
+```docker pull alifar76/jnj-task-b```
+
+To copy the .tre file to the host system to view in Dendroscope by following command:
+
+```docker cp <containerId>:/RAxML_bipartitionsBranchLabels.tre .```
+
+where <containerId> is the ID of container that is run.
